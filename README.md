@@ -2,7 +2,7 @@
 this is a set of APIs to be used by front-end engineers to develop an application
 that store and display tax amounts.
 
-#Technology
+# Technology
 Java for languages, Swagger for API Documentation, Postgres for database and Docker
 
 # Condition
