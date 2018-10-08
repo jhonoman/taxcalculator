@@ -2,6 +2,9 @@
 this is a set of APIs to be used by front-end engineers to develop an application
 that store and display tax amounts.
 
+#Technology
+Java for languages, Swagger for API Documentation, Postgres for database and Docker
+
 # Condition
 this application run in docker, so you must run registry and database(in this app, i use eureka and Postgre)
 if u just wanna run this app in local, just remove environment eureka.serviceUrl.default and SPRING_DATASOURCE_URL in docker-compose.yml and config your database url in application.properties 
