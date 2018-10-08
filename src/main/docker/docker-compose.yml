@@ -1,0 +1,10 @@
+version: '2'
+services:
+    test:
+        image: shopee/tax
+        environment:
+            - eureka.serviceUrl.default=http://eureka-registry:8080/eureka/v2/
+            - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/postgres
+            - PORT=8080
+        ports:
+              - 9007:8080
